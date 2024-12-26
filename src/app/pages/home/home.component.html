@@ -1,0 +1,29 @@
+<div class="container">
+    <!-- Title and Description Above -->
+    <div class="text-center mb-4">
+      <h2>Discover Amazing Destinations</h2>
+      <p class="text-muted">Explore our curated collection of stunning locations from around the world.</p>
+    </div>
+  
+    <!-- Carousel Section -->
+    <div class="carousel-wrapper">
+      <owl-carousel-o [options]="customOptions">
+        <ng-container *ngFor="let slide of cimages">
+          <ng-template carouselSlide [id]="slide.id.toString()">
+            <img class="img-fluid rounded shadow" [src]="slide.src" [alt]="slide.alt">
+          </ng-template>
+        </ng-container>
+      </owl-carousel-o>
+    </div>
+  
+    <div class="text-center mt-4">
+        <p class="lead">
+          Explore vibrant states, immerse yourself in their unique traditions, and plan your next adventure with ease. Every destination has a story waiting for you!
+        </p>
+      </div> 
+    <!-- Call to Action Below -->
+    <div class="text-center mt-4">
+      <a href="/contact" class="btn btn-primary">Contact Us</a>
+    </div>
+  </div>
+  

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Desi Travels</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    header {
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/47/Kerala_Backwaters.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      color: rgb(31, 21, 57);
+      text-align: center;
+      padding: 80px 0;
+    }
+    header h1 {
+      font-size: 3.5em;
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .section h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+    }
+    .section p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 0 auto;
+      color: #666;
+    }
+    .contact-form {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .form-container, .map-container {
+      width: 48%;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+    button {
+      background-color: #007BFF;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2em;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .map-container iframe {
+      width: 100%;
+      height: 350px;
+      border: 0;
+      border-radius: 8px;
+    }
+    .social-media {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .social-media a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 15px;
+      font-size: 1.5em;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you!</p>
+  </header>
+
+  <section class="section">
+    <h2>Get In Touch</h2>
+    <p>If you have any questions, need assistance with planning your trip, or just want to say hello, feel free to reach out to us. We're here to help!</p>
+    
+    <div class="contact-form">
+      <div class="form-container">
+        <h3>Contact Form</h3>
+        <form action="#" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="map-container">
+        <h3>Our Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.933289601597!2d73.8247886!3d18.5204309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3dcb3e1843b%3A0x59821950380e8a4d!2sShivaji%20Nagar%2C%20Pune%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sus!4v1672994796399!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="social-media">
+    <h3>Follow Us</h3>
+    <a href="#" target="_blank">Facebook</a>
+    <a href="#" target="_blank">Instagram</a>
+    <a href="#" target="_blank">Twitter</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Desi Travels. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
